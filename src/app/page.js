@@ -215,6 +215,11 @@ const AnimatedSection = ({ children, className }) => {
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
+  
+  const handleDownload = (e) => {
+    e.preventDefault();
+    window.open('https://drive.google.com/file/d/1__rSYDezLnBjcPgHoZuc2eS_83UeCc_6/view?usp=drive_link', '_blank');
+};
 
   return (
     <>
@@ -298,15 +303,14 @@ export default function Home() {
                 ))}
               </div>
               
-              <motion.a
-                href="/resume.pdf"
-                download
+              <motion.button
+                onClick={handleDownload}
                 className="flex items-center gap-2 px-4 py-2 border-2 border-[#64ffda] text-[#64ffda] rounded-md hover:bg-[#64ffda]/10 transition-colors"
                 whileHover={{ scale: 1.05 }}
               >
                 <HiOutlineDocumentDownload className="w-5 h-5" />
                 <span>Download Resume</span>
-              </motion.a>
+              </motion.button>
             </motion.div>
           </div>
         </motion.section>
@@ -431,7 +435,7 @@ export default function Home() {
                     viewport={{ once: true }}
                   >
                     <motion.a
-                      href="#"
+                      href="https://github.com/Springboard-Internship-2024/AuctionBazaar-Online-Auction-Platform-WebService-Development_Feb_2025/tree/venkata-giridhar-garikipati"
                       className="text-[#64ffda] flex items-center gap-2 hover:gap-3 transition-all"
                       whileHover={{ scale: 1.05 }}
                     >

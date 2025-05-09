@@ -10,10 +10,10 @@ import { FiGithub, FiLinkedin, FiMail, FiTwitter, FiExternalLink } from 'react-i
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
 
 const skills = {
-  programming: ["JavaScript", "Python", "Java", "C"],
+  programming: ["JavaScript", "Python", "Java"],
   frontend: ["React.js", "Next.js","Bootstrap", "Tailwind CSS", "Figma", "Redux"],
   backend: ["Node.js", "Express.js", "MongoDB", "MySQL", "RESTful APIs"],
-  devops: ["AWS", "Docker", "Kubernetes", "CI/CD", "Vercel"],
+  devops: ["AWS", "CI/CD", "Vercel"],
   tools: ["VS Code", "Git", "Linux", "ChatGPT APIs", "Gemini APIs"],
   ai: ["Prompt Engineering", "LLM Integration", "AI-Assisted Development", "Automated Testing"]
 };
@@ -435,11 +435,11 @@ export default function Home() {
                     viewport={{ once: true }}
                   >
                     <motion.a
-                      href="https://github.com/Springboard-Internship-2024/AuctionBazaar-Online-Auction-Platform-WebService-Development_Feb_2025/tree/venkata-giridhar-garikipati"
+                      href="https://drive.google.com/file/d/14PTX7ALyeOxfGHeQn1cgl-PbtbXUtJDU/view?usp=sharing"
                       className="text-[#64ffda] flex items-center gap-2 hover:gap-3 transition-all"
                       whileHover={{ scale: 1.05 }}
                     >
-                      View Project Details
+                      View Certificate
                       <span>→</span>
                     </motion.a>
                   </motion.div>

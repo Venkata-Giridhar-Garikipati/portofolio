@@ -86,7 +86,7 @@ const projects = [
     ],
     tech: ["React.js", "Next.js", "Tailwind CSS", "Framer Motion", "Content Management"],
     github: "https://github.com/Venkata-Giridhar-Garikipati/UI_VVIT",
-    demo: "https://charming-clafoutis-ccf872.netlify.app/"
+    demo: "https://ui-vvit.vercel.app/"
   }
 ];
 

@@ -218,7 +218,7 @@ export default function Home() {
   
   const handleDownload = (e) => {
     e.preventDefault();
-    window.open('https://drive.google.com/file/d/1__rSYDezLnBjcPgHoZuc2eS_83UeCc_6/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1-eNK63Ubg4m4IYmhEGwkAUlv00ar60AT/view?usp=sharing', '_blank');
 };
 
   return (
